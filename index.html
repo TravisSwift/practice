@@ -6,14 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <!-- Header-->
-<H1 style="background-color: rgb(244, 178, 80); text-align:center; padding: 10px; border: 2px solid rgb(241, 117, 9)">A Page Practicing Divs And Other Elements</H1>
+<div class="a"> 
+<H1 style="background-color: rgb(7, 195, 252); text-align:center; padding: 10px; border: 2px solid rgb(44, 9, 241)">A Page Demonstrating HTML Elements</H1>
+
+<div class="topnav">
+    <a class="active" href="#div">Divs</a>
+    <a href="#forms">Forms</a>
+    <a href="#contact">contact</a>
+    <div class="topnav-right">
+    <a href="#search">search</a>
+    <a href="#about">about</a>
+</div>
+</div>
+
+</div>
 
 <!-- body backgorund color-->
-<body style="background-color: rgb(243, 246, 175)">
+<body style="background-color: rgb(251, 251, 251)">
 
-    <!--A single div-->
-<div style="background-color:rgb(171, 171, 238); margin: 4px; padding: 10px; border: 2px solid blue">One single div</div>
+<!--A single div-->
+<div class="b">
+<div style="background-color:rgb(171, 171, 238); text-align: left; justify-content: center; margin: 4px; padding: 10px; border: 2px solid blue"><p>One single div</p></div>
+</div>
 
 <!-- A break between divs-->
 <br>
@@ -67,11 +83,44 @@
 
 <!-- A parent div with four child divs inside it-->
 <div style="background-color: rgb(171, 171, 238); margin: 4px; padding: 10px; border: 2px solid blue">A parent div
-    <div style="background-color: rgb(147, 147, 240); margin: 4px; padding: 10px; border: 2px solid blue">One child div</div>
+    <div style="background-color: rgb(147, 147, 240); margin: 4px; padding: 10px; border: 2px solid blue">First child div</div>
     <div style="background-color: rgb(147, 147, 240); margin: 4px; padding: 10px; border: 2px solid blue">Second child div</div>
     <div style="background-color: rgb(147, 147, 240); margin: 4px; padding: 10px; border: 2px solid blue">Third child div</div>
     <div style="background-color: rgb(147, 147, 240); margin: 4px; padding: 10px; border: 2px solid blue">Fourth child div</div>
 </div>
 
-</body>
+
+<!-- A section displaying form elements-->
+
+<div style="background-color: lightblue; margin: 2px; padding: 5px; border: 2px solid blue;">
+    <br>
+    <h1 class="#forms">Form Elements</h1>
+    <div>
+        <!-- A button element-->
+        <button style="background-color: orange; margin: 2px; padding: 2px;">Button Element</button>
+    </div>
+   
+    <br>
+    <hr> 
+    <div>
+        <!-- A datalist element-->
+        <p style="background-color: orange; margin: 2px; padding: 2px; border: 2px solid blue; width: 400px;">A Datalist Element
+            <br>  
+        <datalist>Datalist</datalist>       
+            <label for="villian">Choose your favorite villain from the list </label>
+            <input list="villians" name="villian" id="villian">
+            <datalist id="villians">
+                <option value="Thanos">
+                <option value="Dr. Doom">
+                <option value="Magneto">
+                <option value="Bane">
+                <option value="Joker">
+            </datalist>
+            <input type="submit">
+        </form>
+    </p>
+    </div>
+    </div>
+    </body>
+
 </html>
