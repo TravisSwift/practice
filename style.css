@@ -31,7 +31,7 @@
   float: right;
 }
 
-th, td {
+th, td, table {
   border: 1px solid black;
   border-radius: 20px;
   border-style: dashed;
@@ -40,11 +40,14 @@ th, td {
   padding-left: 30px;
   padding-right: 40px;
   background: lightgreen;
-  tr:nth-child(even) {
-    background-color: #D6EEEE;
-  } 
 }
 
+  
+/* table section */
 .tables {
     background-color: rgba(182, 166, 228, 0.667);
+}
+
+table {
+  border-spacing: 20px;
 }
