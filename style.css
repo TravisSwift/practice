@@ -31,23 +31,60 @@
   float: right;
 }
 
+/*float the heder */
+
+.header {
+  position: fixed;
+}
+
 th, td, table {
   border: 1px solid black;
   border-radius: 20px;
   border-style: dashed;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 40px;
   background: lightgreen;
+  background-color: rgb(146, 154, 243);
 }
 
+tr:hover {
+  background-color: #D6EEEE;
+}
   
 /* table section */
 .tables {
-    background-color: rgba(182, 166, 228, 0.667);
+    background-color: rgba(105, 74, 198, 0.667);
+
 }
 
-table {
-  border-spacing: 20px;
+.table1 {
+  background-color: #04AA6D;
+  border-spacing: 10px;
+  padding: 10px;
+}
+
+.table2 {
+  border-spacing: 10px;
+  padding: 10px;  
+  width: 90%;
+  height: 100%;
+  }
+  
+
+
+.table3 {
+  border-spacing: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;  
+  width: 80%;
+  height: 70px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Table Data On Hover */
+td:hover {
+  background-color: #04AA6D;
 }
