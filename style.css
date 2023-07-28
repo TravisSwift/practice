@@ -31,11 +31,8 @@
   float: right;
 }
 
-/*float the heder */
+/*Make the nav bar sticky*/
 
-.header {
-  position: fixed;
-}
 
 th, td, table {
   border: 1px solid black;
@@ -87,4 +84,16 @@ html {
 /* Table Data On Hover */
 td:hover {
   background-color: #04AA6D;
+}
+
+.html-lists {
+  background-color: rgb(243, 183, 72);
+  border-color: red;
+  border-style: solid;
+}
+
+.lists {
+  background-color: orange;
+  border-color: red;
+  border-style: solid;
 }

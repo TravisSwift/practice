@@ -18,6 +18,7 @@
     <a class="active" href="#div">Divs</a>
     <a href="#forms">Forms</a>
     <a href="#tables">Tables</a>
+    <a href="#lists">Lists  </a>
     <a href="#contact">contact</a>
     <div class="topnav-right">
     <a href="#search">search</a>
@@ -127,7 +128,7 @@
     </div>
 
     <!-- A Table Element -->
-    <div id="tables" class="table1"><h1>A Table Element With Padding</h1>
+    <div id="tables" class="table1"><h1>A Table Element With Padding and a Table Data Hover Effect</h1>
         <table style="width:100%">
             <tr style="height:50px">
               <th>Firstname</th>
@@ -185,17 +186,64 @@
     </div>
     </body>
 
-    <div>
+    <!--List Elements-->
+
+    <div class="html-lists" id="lists">
         <h1>HTML Lists</h1>
-    </div>
-    <div>
-        <h2>An unordered HTML list</h2>
-        <ul><p>A Unordered List div contains list items</p>
+    
+    <div class="lists">
+        <ul><p>An Unordered List Div contains List Iems</p>
             <li>These</li>
             <li>are</li>
             <li>list</li>
             <li>items</li>
         </ul>
+    </div>
+    <div class="lists">
+        <ol><p>An Ordered List Div contains List Items</p>
+        <li>These</li>
+        <li>are</li>
+        <li>list</li>
+        <li>items</li>
+        </ol>
+    </div>
+    <div class="lists">
+        <dl><p>A Description List div contains a dt (which defines the term) and a dd (which descibes the term).</p>
+            <dt>Term</dt>
+            <dd>- Description</dd>
+            <dt>Term</dt>
+            <dd>- Description</dd>
+        </dl>
+    </div>
+    <div class="lists"><p>Unordered Lists with different marker styles</p>
+        <ul>
+            <li>Disc Marker (Default)</li>
+        </ul>
+        <ul style="list-style-type: circle;">
+            <li>Circle Marker</li>
+        </ul>
+        <div>
+            <ul style="list-style-type: square;">
+                <li>Square Marker</li>
+        </div>
+        <div>
+            <ul style="list-style-type: none;">
+                <li>No Marker</li>
+        </div>
+    </div>
+
+    <div class="lists"><p>A nested unordered list</p>
+        <ul>
+           <li>A list item</li>
+           <li>A list item</li>
+            <ul>
+                <li>Another list item</li>
+                <li>Another list item</li>
+            </ul>
+            <li>And another</li>
+        </ul>
+    </div>
+
     </div>
 
 </html>
